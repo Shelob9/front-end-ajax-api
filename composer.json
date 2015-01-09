@@ -1,0 +1,18 @@
+{
+    "name": "shelob9/front-end-ajax-api",
+    "description": "Adds a front-end API for processing AJAX",
+    "keywords" : [ "wordpress", "AJAX", "API" ],
+    "license": "GPLv2+",
+    "authors": [
+        {
+            "name": "Josh Pollock",
+            "email": "Josh@JoshPress.net",
+            "homepage" : "http://JoshPress.net/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"shelob9\\wp_front_end_ajax_api": "src/"},
+        "files"   : ["functions.php"]
+    }
+}
